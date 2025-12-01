@@ -5,124 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>parctice</title>
-    <style>
-        body {
-            background-color: rgb(48, 48, 48);
-            width: 100%;
-            height: 2000px;
-        }
-
-        .intro {
-            display: flex;
-            width: 99%;
-            border-radius: 20px;
-            background-color: aliceblue;
-            justify-content: space-between;
-            position: fixed;
-            top: 10px;
-        }
-
-        .background {
-            background-image: linear-gradient(to top, black, rgb(25, 31, 25));
-            width: 100%;
-            height: 500vh;
-        }
-
-        ol {
-            list-style-type: none;
-            display: flex;
-            padding-right: 10px;
-            gap: 25px;
-            font-family: sans-serif;
-            font-size: x-large;
-        }
-
-        ol li a {
-            display: inline-block;
-            text-decoration: none;
-            color: black;
-        }
-
-        ol li {
-            border: 7px solid transparent;
-            transition: 1s;
-        }
-
-        li:hover {
-            background-color: rgba(58, 56, 56, 0.247);
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        form {
-            display: flex;
-            gap: 15px;
-            height: 40px;
-            padding-top: 18px;
-            position: absolute;
-            left: 120px;
-        }
-
-        [type="submit"] {
-            width: 100px;
-            border-radius: 20px;
-            border-color: rgba(245, 245, 220, 0);
-            border-color: black;
-            background-color: rgba(36, 35, 35, 0.13);
-        }
-
-        [type="search"] {
-            width: 700px;
-            border-radius: 20px;
-            border-color: rgba(245, 245, 220, 0);
-            background-color: rgba(36, 35, 35, 0.13);
-            border-color: black;
-            padding-left: 10px;
-            font-family: sans-serif;
-            font-size: large;
-        }
-
-        [type="submit"]:hover {
-            border-color: black;
-            background-color: rgba(36, 35, 35, 0.247);
-            transition: 1s;
-        }
-
-        [type="search"]:hover {
-            border-color: black;
-            background-color: rgba(36, 35, 35, 0.363);
-            transition: 1s;
-        }
-
-        .header {
-            position: relative;
-        }
-
-        [src="./image/jon vai.jpg"] {
-            position: absolute;
-            top: 200px;
-            left: 1100px;
-        }
-
-        h1 {
-            color: #fff;
-            position: absolute;
-            top: 150px;
-            left: 200px;
-            font-size: 50px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="background">
         <div class="header"
-            style="width: 100%; height: 800px; background-image:  linear-gradient(to right,rgb(48, 48, 48), rgb(0, 0, 0) , rgb(48, 48, 48));">
+            style="max-width: 100%; height: 800px; background-image:  linear-gradient(to right,rgb(48, 48, 48), rgb(0, 0, 0) , rgb(48, 48, 48));">
             <h1>Learn Guitar </h1>
             <div
                 style="width: 100%; height: 2px; background-image: linear-gradient(to right, #000, #fff, #000); position: absolute; bottom: 150px;">
             </div>
-            <img class="hc" src="./image/jon vai.jpg" width="300px" height="300px" alt="Jon petrochi">
+            <div class="jon">
+                <img class="hc" src="./image/jon vai.jpg" alt="Jon petrochi">
+                <h3>Jon Petrochi</h3>
+            </div>
 
         </div>
         <div class="intro">
